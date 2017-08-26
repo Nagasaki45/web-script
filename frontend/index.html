@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+<head>
+</head>
+
+<body>
+    <h1>Welcome to WebScript</h1>
+
+    <div id="app">
+        <div v-if="showSpinner" id="spinner"></div>
+        <button v-bind:disabled="showSpinner" v-on:click="callScript">Call Script</button>
+        <p class="script-output">
+            {{ message }}
+        </p>
+    </div>
+
+    <script src="/static/js/vue.min.js"></script>
+    <script src="/static/js/spin.min.js"></script>
+    <script src="/static/js/app.js"></script>
+</body>
+</html>
