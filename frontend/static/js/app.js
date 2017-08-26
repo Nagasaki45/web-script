@@ -16,7 +16,6 @@ new Vue({
             vue.message = null;
 
             req.addEventListener('load', function () {
-                console.log(this.status);
                 if (this.status == 200)
                 {
                     vue.message = this.responseText;
