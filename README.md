@@ -9,7 +9,7 @@ Here are the requirements:
 - Make sure to protect the server from overloading by limiting the number of concurrent active scripts.
 
 The frontend is the same for both projects.
-Getting user input is not demonstrating in this repo, as it should be straightforward in both languages.
+Getting and validating user input is not demonstrated in this repo, as it should be straightforward in both languages.
 The idea was to compare the concurrency stuff.
 
 ## Python
